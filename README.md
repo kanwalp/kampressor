@@ -4,13 +4,13 @@ goto run_app_directly folder and double click the .exe file
 2. KanVCompress.exe - video compressor maintaining the same quality
 
 
-=============================================================================================
+========================================================
 
 
 to create a .exe standalone app
 pyinstaller --onefile --icon=app.ico --hidden-import=pillow_heif Kanpressor.py
 
 
-=============================================================================================
+========================================================
 to run using code 
 python Kanpressor.py
